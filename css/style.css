@@ -1,0 +1,56 @@
+
+body {
+    background-color: darkwhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16 px;
+    line-height: 1.6;
+}
+h1 {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+  }
+
+h2 {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: black; }
+
+
+    button:hover, button:focus
+     {
+      cursor: pointer;
+      opacity: 0.8;
+      background-color: #F3F3F3
+    }
+
+     .button-secondary {
+        color: #23F565 !important;
+        text-decoration: none;
+        padding: 10px;
+        border-color: #000000;
+        border-radius: 3px;
+        border-bottom: none;
+        transition: 0.2s opacity;
+      }
