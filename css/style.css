@@ -1,8 +1,13 @@
 
-body {
+
+* {
+  box-sizing: border-box;
+}
+header {
     background-color: darkwhite;
     font-family: 'Montserrat', sans-serif;
     font-size: 16 px;
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     line-height: 1.6;
 }
 h1 {
@@ -38,19 +43,61 @@ h3 {
     color: black; }
 
 
-    button:hover, button:focus
-     {
-      cursor: pointer;
-      opacity: 0.8;
-      background-color: #F3F3F3
+
+
+  div {
+      padding: 10px;
+      margin: 10px;
     }
 
-     .button-secondary {
-        color: #23F565 !important;
-        text-decoration: none;
-        padding: 10px;
-        border-color: #000000;
-        border-radius: 3px;
-        border-bottom: none;
-        transition: 0.2s opacity;
-      }
+    a {
+      color: #23F565;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #23F565;
+    }
+
+    a:hover {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a:active {
+      color: #000000;
+    }
+
+    button {
+      border: none;
+      font-family: inherit;
+
+      background-color: white;
+      color: black !important;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 3px;
+      border-bottom: 2px solid #23F565;
+      transition: 0.2s opacity;
+    }
+
+   button:hover, button:focus
+   {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: #F3F3F3
+  }
+
+   .button-secondary {
+      color: #23F565 !important;
+      text-decoration: none;
+      padding: 10px;
+      border-color: #000000;
+      border-radius: 3px;
+      border-bottom: none;
+      transition: 0.2s opacity;
+    }
+
+    a {
+      color: black;
+    }
