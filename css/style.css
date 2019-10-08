@@ -42,46 +42,7 @@ h3 {
     letter-spacing: normal;
     color: black; }
 
-
-
-
-  div {
-      padding: 10px;
-      margin: 10px;
-    }
-
-    a {
-      color: #23F565;
-      text-decoration: none;
-    }
-
-    a:visited {
-      color: #23F565;
-    }
-
-    a:hover {
-      color: #000000;
-      text-decoration: none;
-    }
-
-    a:active {
-      color: #000000;
-    }
-
-    button {
-      border: none;
-      font-family: inherit;
-
-      background-color: white;
-      color: black !important;
-      text-decoration: none;
-      padding: 10px;
-      border-radius: 3px;
-      border-bottom: 2px solid #23F565;
-      transition: 0.2s opacity;
-    }
-
-   button:hover, button:focus
+   .button:hover, button:focus
    {
     cursor: pointer;
     opacity: 0.8;
@@ -98,8 +59,15 @@ h3 {
       transition: 0.2s opacity;
     }
 
+
+img { 
+  width:%100
     a {
       color: black;
+    }
+  
+  .logo {
+    max-width: 40px;
     }
 
     /* Medium devices (640px and larger) */
