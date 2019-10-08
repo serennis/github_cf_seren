@@ -3,10 +3,10 @@
 * {
   box-sizing: border-box;
 }
-header {
-    background-color: darkwhite;
+body {
+    background-color: f3f3f3;
     font-family: 'Montserrat', sans-serif;
-    font-size: 16 px;
+    font-size: 16px;
     box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
     line-height: 1.6;
 }
