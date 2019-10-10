@@ -5,31 +5,36 @@
   <meta charset="utf-8">
   <title> Projects of Seren Nisgavlioglu-Berlin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
- <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800" rel="stylesheet"
-  >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,800" rel="stylesheet">
 
 </head>
+
 <body>
   <header>
-     <div class="container">
-    <a href="index.html"> img class="logo" src="img/About/snlogo.png" alt="Seren Nisgavlioglu UX Designer Logo"><a/> 
-   
-      <nav>
-        <ul>
-        <li><a href="#"> Work</a><li/>
-        <li><a href="#">About</a><li/>
-        <li><a href="#">Contact</a><li/>
+    <div class="container">
+      <div id="myNavtoggle" class="navtoggle">
+        <a href="index.html"><img class="logo" src="img/About/snlogo.png" alt="Seren Nisgavlioglu UX Designer Logo"></a>
+        <nav>
+          <ul>
+            <li><a href="#"> Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#contact" class="contact-header" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
-      </nav>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main>
 
-    <div> <!-- Welcome section-->
-      <divclass="container"> <!-- container-->
+    <div>
+      <!-- Welcome section-->
+      <div class="container">
+        <!-- container-->
         <h1>Hi there! My name is Seren Nisgavlioglu <span>I'm a tech enthusiast UX Designer from Berlin! I am fonnd of tech and innovvation.</span></h1>
         <p>
           Come and have a look at my projects!
@@ -37,17 +42,22 @@
       </div>
     </div>
 
-    <div> <!-- Work section-->
-      <divclass="container"> <!-- container-->
+    <div>
+      <!-- Work section-->
+      <div class="container">
+        <!-- container-->
         <h2>My Work</h2>
-        <div class="row"> <!-- row-->
-          <div class="col-md-6"> <!-- column 1-->
+        <div class="row">
+          <!-- row-->
+          <div class="col-md-6">
+            <!-- column 1-->
             <picture>
               <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
               <img src="http://via.placeholder.com/1200x800" alt="My Image">
             </picture>
           </div>
-          <div class="col-md-6"> <!-- column 2 -->
+          <div class="col-md-6">
+            <!-- column 2 -->
             <h3>UI&UX Process of Digitastic- Webscan</h3>
             <p>
               Digitastic is a SaaS product for B2B and B2C. It is a young subsidiary of a big tax company HSP Steuer in Berlin.
@@ -59,38 +69,44 @@
           </div>
         </div>
 
-        <div class="row"> <!-- row-->
-          <div class="col-md-6"> <!-- column 1-->
+        <div class="row">
+          <!-- row-->
+          <div class="col-md-6">
+            <!-- column 1-->
             <picture>
               <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
               <img src="http://via.placeholder.com/1200x800" alt="My Image">
             </picture>
           </div>
-          <div class="col-md-6"> <!-- column 2-->
-              <h3>UI&UX Process of Bond Investment</h3>
-              <p>
-                Bond investment is an investment software for real estate investors. The goal here is to create a believable, living character, which helps to solve
-                real problems and create meaningful services and products for relevant users.
-                In order to create a memorable and more human persona
-              </p>
-              <a href="">Read more</a>
-            </div>
+          <div class="col-md-6">
+            <!-- column 2-->
+            <h3>UI&UX Process of Bond Investment</h3>
+            <p>
+              Bond investment is an investment software for real estate investors. The goal here is to create a believable, living character, which helps to solve
+              real problems and create meaningful services and products for relevant users.
+              In order to create a memorable and more human persona
+            </p>
+            <a href="">Read more</a>
           </div>
-
         </div>
+
       </div>
+    </div>
 
-    </main>
+  </main>
 
-    <footer>
-      <divclass="container"> <!-- container-->
-        <h2>Get in touch</h2>
-        <div> <!-- button-->
-          <a href="mailto:youremailadress" class="button"> Send email</a>
-        </div>
-            </div>
-    </footer>
-<script src="js/scripts.js"></script>
+  <footer id="contact">
+    <div class="container">
+      <!-- container-->
+      <h2>Get in touch</h2>
+      <div>
+        <!-- button-->
+        <a href="mailto:youremailadress" class="button"> Send email</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
